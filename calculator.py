@@ -1,7 +1,7 @@
 from tkinter import *
 from tkinter import ttk
 
-#to do add a label showing full equation
+#to do: add a label showing full equation
 #backspace delete button, keyboard shortcuts
 #cleaner output for int no '.0 '
 
