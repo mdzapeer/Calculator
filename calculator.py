@@ -127,11 +127,11 @@ class GUI(object):
 
     def execute(self):
         if signFlag == 'ADD':
-            result=Input1+Input2
+            result=Input2+Input1
             entry.delete(0,END)
             entry.insert(0,result)
         if signFlag == 'MINUS':
-            result=Input1-Input2
+            result=Input2-Input1
             entry.delete(0,END)
             entry.insert(0,result)        
         if signFlag == 'DIVIDE':
@@ -139,7 +139,7 @@ class GUI(object):
             entry.delete(0,END)
             entry.insert(0,result)        
         if signFlag == 'MULTIPLY':
-            result=Input1*Input2
+            result=Input2*Input1
             entry.delete(0,END)
             entry.insert(0,result)
 
